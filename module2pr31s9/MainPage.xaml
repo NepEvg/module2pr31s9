@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="module2pr31s9.MainPage"
+             BackgroundColor="#32B898">
+
+    <StackLayout>
+        <Image Source="Facebook.png" VerticalOptions="StartAndExpand" HorizontalOptions="Center"/>
+        <Entry Text="Имя пользователя"  VerticalOptions="CenterAndExpand"  HorizontalOptions="Center" BackgroundColor="White"/>
+        <Entry Text="Пароль" VerticalOptions="CenterAndExpand"  HorizontalOptions="Center" BackgroundColor="White"/>
+        <Button Text="Регистрация" Clicked="Next" FontSize="Large" BorderWidth="1" VerticalOptions="CenterAndExpand"  HorizontalOptions="Center" BackgroundColor="#4A799A" TextColor="White"/>
+    </StackLayout>
+
+</ContentPage>
